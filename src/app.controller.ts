@@ -1,9 +1,12 @@
 import { Controller, Get } from '@nestjs/common';
+import { AppService } from './app.service';
 
 @Controller('/api')
 export class AppController {
+  constructor(private appService: AppService) {}
+
   @Get('/users')
   async getUsers() {
-    return [{ id: 1, name: 'Sanya' }];
+    return this.appService.getUsers();
   }
 }
