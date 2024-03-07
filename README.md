@@ -4,14 +4,14 @@
 ## What I am going to learn:
  - Registration/Authentication using NestJS with JWT-tokens
  - Roles of a user and validation
- - PostgreSQL + Sequelize practice again
  - API documentation
- - develop/production configuration
  - Data validation
  - Docker/docker compose
 
 ## What I have passed: 
  - Architecture of a backend app
+ - develop/production configuration
+ - PostgreSQL + Sequelize practice again
 
 ## Installation
 
